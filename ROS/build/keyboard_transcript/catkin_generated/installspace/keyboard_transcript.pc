@@ -1,4 +1,4 @@
-prefix=/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/install
+prefix=/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/install
 
 Name: keyboard_transcript
 Description: Description of keyboard_transcript

@@ -67,14 +67,14 @@ set(keyboard_transcript_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(keyboard_transcript_SOURCE_PREFIX /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/src/keyboard_transcript)
-  set(keyboard_transcript_DEVEL_PREFIX /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/devel)
+  set(keyboard_transcript_SOURCE_PREFIX /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/src/keyboard_transcript)
+  set(keyboard_transcript_DEVEL_PREFIX /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/devel)
   set(keyboard_transcript_INSTALL_PREFIX "")
   set(keyboard_transcript_PREFIX ${keyboard_transcript_DEVEL_PREFIX})
 else()
   set(keyboard_transcript_SOURCE_PREFIX "")
   set(keyboard_transcript_DEVEL_PREFIX "")
-  set(keyboard_transcript_INSTALL_PREFIX /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/install)
+  set(keyboard_transcript_INSTALL_PREFIX /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/install)
   set(keyboard_transcript_PREFIX ${keyboard_transcript_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/install/lib;/home/corentin/workspaceRos/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/install/lib;/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

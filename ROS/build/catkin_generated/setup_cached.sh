@@ -7,8 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/devel/lib:$LD_LIBRARY_PATH"
-export PWD="/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/src:$ROS_PACKAGE_PATH"
+export PWD="/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/build"

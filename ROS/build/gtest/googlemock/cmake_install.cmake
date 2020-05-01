@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/install")
+  set(CMAKE_INSTALL_PREFIX "/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/build/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/build/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

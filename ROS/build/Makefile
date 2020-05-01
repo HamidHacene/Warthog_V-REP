@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/src
+CMAKE_SOURCE_DIR = /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/build
+CMAKE_BINARY_DIR = /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/build/CMakeFiles /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/build/CMakeFiles /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/corentin/Documents/Cours/2A/UE4.2_Simulation/Warthog_V-REP/ROS/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/colin/Documents/ENSTA/Warthog_V-REP/ROS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -479,6 +479,19 @@ std_msgs_generate_messages_py/fast:
 	$(MAKE) -f keyboard_transcript/CMakeFiles/std_msgs_generate_messages_py.dir/build.make keyboard_transcript/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named water
+
+# Build rule for target.
+water: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 water
+.PHONY : water
+
+# fast build rule for target.
+water/fast:
+	$(MAKE) -f water_simu/CMakeFiles/water.dir/build.make water_simu/CMakeFiles/water.dir/build
+.PHONY : water/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -516,6 +529,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... water"
 .PHONY : help
 
 

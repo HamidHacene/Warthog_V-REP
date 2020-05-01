@@ -1,0 +1,8 @@
+prefix=/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/install
+
+Name: water_simu
+Description: Description of water_simu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
