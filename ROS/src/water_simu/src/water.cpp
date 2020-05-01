@@ -60,7 +60,7 @@ int main(int argc, char **argv){
   
         std_msgs::Float32 f;
         float archi = p*g*M_PI*h*h/3*(3*R-h);
-        float frtt = - 200*v*h - 10*v*v*h;
+        float frtt = - 200*v*h - 20*v*v*h;
         //std::cout << "archi : " << archi << " / frtt : " << frtt << std::endl;
         f.data =  archi + frtt ;
         
