@@ -1,8 +1,0 @@
-prefix=/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/devel
-
-Name: keyboard_transcript
-Description: Description of keyboard_transcript
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

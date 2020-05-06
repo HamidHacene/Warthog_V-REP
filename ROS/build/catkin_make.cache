@@ -1,2 +1,0 @@
-keyboard_transcript:water_simu
--DCATKIN_DEVEL_PREFIX=/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/devel -DCMAKE_INSTALL_PREFIX=/home/colin/Documents/ENSTA/Warthog_V-REP/ROS/install -G Unix Makefiles
