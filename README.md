@@ -6,7 +6,8 @@ Ce projet vise à modéliser le robot Warthog de la société Clearpath Robotics
 
 
 ## Modélisation physique
-
+Nous avons créé une branche spéciale qui contient en plus de la simulation terreste, la partie flottaison du robot. Cette branche est disponible ici : 
+[Pafnouti/Warthog_V-REP/tree/buoyancy](https://github.com/Pafnouti/Warthog_V-REP/tree/buoyancy)
 
 
 ## Implémentation ROS
